@@ -16,11 +16,9 @@ function getRandomColor() {
 	}
 	return color;
   }
-
 function randomColors(){
 	color1.value = getRandomColor();
 	color2.value = getRandomColor();
-
 	gradientPicker();
 }
 gradientPicker();
